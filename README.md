@@ -105,3 +105,23 @@ This is intentionally framed as an open scenario, not a tightly specified build 
 - result presentation
 
 Strong submissions will balance practicality, clarity, and reusability.
+
+## Submission Guidelines
+
+- Fork the repository and create a feature branch for your contribution.
+- Submit your work through a pull request against the main repository. Do not submit code, prescription files, screenshots containing real prescriptions, or datasets through email, chat, or shared drives.
+- Open an issue first if your proposed approach changes the scope materially, introduces a major dependency, requires a hosted service by default, or needs a different runtime than the one described in this README.
+- Include a short solution approach in the pull request that explains the OCR choice, model choice, extraction strategy, review workflow, design tradeoffs, and known limitations.
+- Include architecture documentation that shows the main components, data flow, adapter boundaries, configuration files, local storage, and output artifacts. A simple diagram is preferred where useful.
+- Include setup and running instructions that allow a reviewer to run the project from a clean checkout using fake fixtures.
+- Include deployment notes, even if the project only runs locally. State the expected runtime, environment variables, model/runtime setup, storage paths, and optional services.
+- Include scaling notes that explain what would need to change for larger document batches, queue-based processing, parallel OCR, model serving, cloud storage, or managed orchestration.
+- Include integration notes describing how Azure Document Intelligence, Durable Functions, hosted model endpoints, or similar services could later be plugged in through the adapter boundaries.
+- Include code documentation for public functions, configuration options, CLI commands, model prompts, data formats, review states, and export formats.
+- Include sample inputs and outputs using fake demo fixtures only. Do not include real prescriptions, real patient data, real provider data, or PHI.
+- Include tests or validation checks for core behavior, such as schema validation, OCR output handling, extraction parsing, review state updates, export creation, and error handling.
+- Include a short quality report or evidence section showing sample runs, known failure cases, and how reviewers should inspect outputs.
+- Keep secrets, credentials, API keys, generated caches, local model files, private documents, and local environment files out of the repository.
+- Add or update `.gitignore` where needed to prevent accidental submission of local data, model artifacts, generated files, or credentials.
+- Use clear commit messages and keep unrelated refactors out of the pull request.
+- The pull request should be reviewable as a standalone contribution: reviewers should not need access to internal roadmaps, private prescription datasets, AWS PoCs, Azure architecture, or proprietary platform details to understand or run it.
