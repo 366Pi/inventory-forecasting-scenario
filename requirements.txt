@@ -1,0 +1,9 @@
+pandas
+numpy
+pyodbc
+sqlalchemy
+python-dotenv
+prophet
+streamlit
+plotly
+openpyxl

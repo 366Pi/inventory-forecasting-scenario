@@ -1,0 +1,37 @@
+2026-06-08 08:42:04 [INFO] pipeline: Logger initialized — writing to logs/pipeline_2026-06-08.log
+2026-06-08 08:42:53 [INFO] pipeline: Logger initialized — writing to logs/pipeline_2026-06-08.log
+2026-06-08 08:45:09 [INFO] pipeline: Pipeline started — scenario: Normal, horizon: 30 days
+2026-06-08 08:45:12 [INFO] pipeline: Processing 20 items with sufficient data.
+2026-06-08 08:47:17 [INFO] pipeline: Forecasts generated for 20 items.
+2026-06-08 08:47:28 [INFO] pipeline: Forecast results saved to forecast_output table.
+2026-06-08 08:47:36 [INFO] pipeline: Pipeline complete in 147.01s — 20 items processed.
+2026-06-08 12:35:41 [INFO] pipeline: Pipeline started — scenario: Normal, horizon: 30 days
+2026-06-08 12:35:41 [INFO] pipeline: Processing 5 items with sufficient data.
+2026-06-08 12:35:44 [INFO] pipeline: Forecasts generated for 5 items.
+2026-06-08 12:35:54 [INFO] pipeline: Forecast results saved to forecast_output table.
+2026-06-08 12:35:56 [INFO] pipeline: Pipeline complete in 15.74s — 5 items processed.
+2026-06-08 12:36:16 [INFO] pipeline: Pipeline started — scenario: Normal, horizon: 30 days
+2026-06-08 12:36:16 [INFO] pipeline: Processing 10 items with sufficient data.
+2026-06-08 12:36:54 [INFO] pipeline: Forecasts generated for 10 items.
+2026-06-08 12:36:56 [INFO] pipeline: Forecast results saved to forecast_output table.
+2026-06-08 12:36:59 [INFO] pipeline: Pipeline complete in 43.04s — 10 items processed.
+2026-06-08 13:59:09 [INFO] pipeline: Pipeline started — scenario: Normal, horizon: 30 days
+2026-06-08 13:59:09 [INFO] pipeline: Processing 45 items with sufficient data.
+2026-06-08 14:02:39 [INFO] pipeline: Forecasts generated for 45 items.
+2026-06-08 14:02:43 [INFO] pipeline: Forecast results saved to forecast_output table.
+2026-06-08 14:02:45 [INFO] pipeline: Pipeline complete in 215.77s — 45 items processed.
+2026-06-09 08:52:50 [INFO] pipeline: Pipeline started — scenario: Normal, horizon: 60 days
+2026-06-09 08:52:50 [INFO] pipeline: Processing 20 items with sufficient data.
+2026-06-09 08:54:51 [INFO] pipeline: Forecasts generated for 20 items.
+2026-06-09 08:54:55 [WARNING] pipeline: Could not save forecast to DB: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open server 'nexuspepoc' requested by the login. Client with IP address '152.58.133.163' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. (40615) (SQLDriverConnect); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open server 'nexuspepoc' requested by the login. Client with IP address '152.58.133.163' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. (40615)")
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-06-09 08:59:39 [INFO] pipeline: Pipeline started — scenario: Normal, horizon: 60 days
+2026-06-09 08:59:39 [INFO] pipeline: Processing 20 items with sufficient data.
+2026-06-09 09:01:57 [INFO] pipeline: Forecasts generated for 20 items.
+2026-06-09 09:02:04 [INFO] pipeline: Forecast results saved to forecast_output table.
+2026-06-09 09:02:07 [INFO] pipeline: Pipeline complete in 148.37s — 20 items processed.
+2026-06-09 09:04:21 [INFO] pipeline: Pipeline started — scenario: Normal, horizon: 60 days
+2026-06-09 09:04:21 [INFO] pipeline: Processing 45 items with sufficient data.
+2026-06-09 09:11:44 [INFO] pipeline: Forecasts generated for 45 items.
+2026-06-09 09:11:48 [INFO] pipeline: Forecast results saved to forecast_output table.
+2026-06-09 09:11:52 [INFO] pipeline: Pipeline complete in 450.98s — 45 items processed.
